@@ -6,3 +6,6 @@ Feature: Test
 	Scenario: I can view the test page
 		Given I am at "http://127.0.0.1:9000/home/"
 		Then I should see "Estas en Home"
+		
+		Given I am at "http://127.0.0.1:9000/help/"
+		Then I should see "Estas en Help"
