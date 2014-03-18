@@ -9,3 +9,6 @@ Feature: Test
 		
 		Given I am at "http://127.0.0.1:9000/help/"
 		Then I should see "Estas en Help"
+		
+		Given I am at "http://127.0.0.1:9000/about/"
+		Then I should see "Estas en About"
